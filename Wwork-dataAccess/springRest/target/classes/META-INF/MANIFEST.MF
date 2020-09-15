@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: springboot-registration-login
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: Dsingh
+Implementation-Vendor-Id: com.worthyWork.springboot
+Build-Jdk: 1.8.0_241
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/springboot-registration-login
+Created-By: Maven Integration for Eclipse
+

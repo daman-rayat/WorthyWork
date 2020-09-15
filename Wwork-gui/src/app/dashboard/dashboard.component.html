@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" [routerLink]="['/dashboard']">Worthy Works</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+
+<div id="content" align="center">
+  <h2>Dashboard</h2>
+</div>
+
+<div class="row" >
+  <div class="para col-lg-4 one">
+    <div class="card">
+      <div class="card-header">
+        Car Pooling
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Details of Car Pool</h5>
+        <p class="card-text">Post and get details about ride share</p>
+        <button class="btn btn-primary" [routerLink] = "['/carpooling']">Go to Car Pool</button>
+      </div>
+    </div>
+  </div>
+  <div class="para col-lg-4 one">
+    <div class="card" >
+      <div class="card-header">
+        Donate
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Details of Donation</h5>
+        <p class="card-text">Post and get details about donation of Items</p>
+        <button class="btn btn-primary" [routerLink] = "['/donate']">Go to Donate page</button>
+      </div>
+    </div>
+  </div>
+  <div class="para col-lg-4 one">
+    <div class="card">
+      <div class="card-header">
+        Voluntary Work
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Details of Voluntary Work</h5>
+        <p class="card-text">Post and get details about Voluntary Work</p>
+        <button class="btn btn-primary" [routerLink] = "['/voluntarywork']">Go to Voluntary Work Page</button>
+      </div>
+    </div>
+  </div>
+</div>
+
